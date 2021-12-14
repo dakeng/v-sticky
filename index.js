@@ -1,3 +1,6 @@
+// 引入jquery
+import { throttle } from './utils.js'
+
 // 使用 sticky 指令的节点应包在一个 static 定位的节点中，便于定位
 const sticky = {
   inserted: function (el, binding, vnode) {
